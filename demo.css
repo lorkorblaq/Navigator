@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input, button {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+:focus {
+  outline: 3px dashed #007acc;
+  outline-offset: 4px;
+}
